@@ -1,0 +1,58 @@
+# 의존성
+node_modules/
+.pnp
+.pnp.js
+
+# 테스트
+coverage/
+
+# 프로덕션 빌드
+dist/
+build/
+
+# 개인정보 보호 - 샘플 데이터
+sample-data/
+*.zip
+*instagram*.zip
+*instagram*.json
+
+# 환경 변수
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 로그
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 에디터/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 임시 파일
+*.tmp
+*.temp
+.cache/
+
+# 배포
+.vercel
+.netlify/
+
+# Private input and verification artifacts
+.env*
+*.zip
+*.local
+.private/
+.qa/
+qa/
+artifacts/
+test-results/
+coverage/
